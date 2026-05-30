@@ -1,0 +1,38 @@
+{
+  "name": "ai-video-generator-saas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.469",
+    "@remotion/player": "^4.0.180",
+    "@remotion/renderer": "^4.0.180",
+    "@remotion/transitions": "^4.0.180",
+    "@supabase/supabase-js": "^2.43.4",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^11.2.10",
+    "lucide-react": "^0.395.0",
+    "next": "15.0.0",
+    "openai": "^4.51.0",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "remotion": "^4.0.180"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/canvas-confetti": "^1.6.4",
+    "@types/node": "^20.14.2",
+    "@types/react": "^19.0.0-rc.1",
+    "@types/react-dom": "^19.0.0-rc.1",
+    "eslint": "^9.4.0",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.4.5"
+  }
+}
